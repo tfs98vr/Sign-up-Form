@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    display: flex;
+    font-family: 'Spartan', sans-serif;
+}
+
+.cont1 {
+    height: 100vh;
+    width: 35vw;
+    background-image: url(background.jpg);
+    background-size: cover;
+}
+
+img {
+    height: 180px;
+    width: 190px;
+    position: relative;
+    left: 20%;
+    top: 10%
+}
+
+.cont1 p {
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 62%;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: 800;
+}
+
+.cont2 {
+    width: 65vw;
+}
+
+#title1 {
+    font-size: 15px;
+    height: 6vh;
+    padding-top: 9px;
+    padding-left: 2rem;
+    font-weight: bold;
+}
+
+.div1, .div3 {
+    background-image: linear-gradient(180deg, #660000, #9b0000);
+    height: 31.3vh;
+    margin-top: 0;
+}
+
+.para2 {
+    margin-top: 0;
+    padding-top: 3rem;
+    padding-left: 2rem;
+    color: white;
+}
+
+.para3 {
+    padding-top: 1rem;
+    padding-left: 2rem;
+    color: white;
+}
+
+.div2 {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    height: 30vh;
+    gap: 7px;
+    font-size: 12px;
+    padding-left: 2rem;
+}
+
+label, input {
+    display: block;
+}
+
+input {
+    border-radius: 5px;
+    border: 2px solid rgb(189, 186, 186);
+}
+
+.div3 button,
+.div3 p {
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+
+.div3 p {
+    color: white;
+}
+
+.div3 a {
+    color: #afdfcb;
+}
+
+button {
+    font-family: 'Spartan', sans-serif;
+    font-size: 16px;
+    border: 0px;
+    border-radius: 6px;
+    background-color: #000B49;
+    color: white;
+    padding: 8px 15px 8px 15px;
+}
+
+button:hover {
+    background-color: #001380;
+    transition: 300ms;
+}
+
+
